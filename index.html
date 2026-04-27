@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGuard: Protect Our Planet | AWS S3 Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>EcoGuard</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#action">Take Action</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Protect Our Planet</h1>
+            <p>Smart resource management for a sustainable future. Join the green revolution today!</p>
+            <button onclick="scrollToSection('stats')">See Impact</button>
+        </div>
+    </section>
+
+    <section id="stats" class="stats">
+        <h2>Environmental Stats</h2>
+        <div class="stat-grid">
+            <div class="stat-card" data-target="78000000">
+                <h3>Trees Saved</h3>
+                <span class="counter">0</span>
+            </div>
+            <div class="stat-card" data-target="450">
+                <h3>CO2 Reduced (M tons)</h3>
+                <span class="counter">0</span>
+            </div>
+            <div class="stat-card" data-target="320">
+                <h3>Water Saved (B liters)</h3>
+                <span class="counter">0</span>
+            </div>
+            <div class="stat-card" data-target="1200">
+                <h3>Cities Protected</h3>
+                <span class="counter">0</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="resources">
+        <h2>Resource Management</h2>
+        <p>Efficient lifecycle: Monitor, optimize, sustain. Like S3 versioning & rules!</p>
+        <div class="resource-bars">
+            <div class="bar">
+                <span>Energy</span>
+                <div class="progress" data-width="85%"></div>
+            </div>
+            <div class="bar">
+                <span>Water</span>
+                <div class="progress" data-width="72%"></div>
+            </div>
+            <div class="bar">
+                <span>Forest Cover</span>
+                <div class="progress" data-width="68%"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="action" class="action">
+        <h2>Take Action Now</h2>
+        <button onclick="showAlert()">Pledge to Go Green!</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 EcoGuard | Hosted on AWS S3 with Versioning & Lifecycle</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
