@@ -4,13 +4,12 @@
 Shailendra Dhakad
 
 ## 🎓 Registration Number
-YOUR_REGISTRATION_NUMBER
+12318248
 
 ---
 
 ## 🌐 Live Website
-<img width="1919" height="978" alt="image" src="https://github.com/user-attachments/assets/95dac290-eea9-4425-aa96-873b04741d33" />
-
+https://shailendra-s3-site-2026.s3.us-east-2.amazonaws.com/index.html
 
 ---
 
@@ -30,31 +29,36 @@ This project demonstrates hosting a static website using Amazon S3. It includes 
 ## 📸 Screenshots
 
 ### 1. S3 Bucket (Files Uploaded)
-Stored website files inside S3 bucket.
+Shows uploaded files in S3 bucket.
 
-📁 File: `assets/s3-bucket.png`
+<img src="assets/s3-bucket.png" width="900"/>
 
 ---
 
 ### 2. Versioning Enabled
 Shows multiple versions of `index.html`.
 
-📁 File: `assets/versioning.png`
+<img src="assets/versioning.png" width="900"/>
 
 ---
 
 ### 3. Lifecycle Rule Configuration
-Shows rule for:
+Shows lifecycle rule:
 - Delete noncurrent versions after 7 days
 
-📁 File: `assets/lifecycle.png`
+<img src="assets/lifecycle.png" width="900"/>
 
 ---
 
-### 4. Website Running
-Live static website hosted on S3.
+### 4. Website Running (Live S3 Site)
 
-📁 File: `assets/website.png`
+<img src="assets/runningWebsite.png" width="900"/>
+
+---
+
+### 5. AWS Console Screenshot (Proof)
+
+<img src="https://github.com/user-attachments/assets/d9cadc23-3d72-4f5e-b4ab-a67529004bb4" width="900"/>
 
 ---
 
@@ -68,7 +72,7 @@ Live static website hosted on S3.
 
 ## ⚠️ Challenges Faced
 - Configuring S3 bucket public access correctly
-- Understanding versioning behavior (multiple object versions)
+- Understanding versioning behavior
 - Setting lifecycle rules properly
 
 ---
