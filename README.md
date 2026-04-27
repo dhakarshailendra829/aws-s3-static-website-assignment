@@ -1,24 +1,24 @@
 # AWS S3 Static Website Hosting Assignment
 
-## 👤 Name
+## Name
 Shailendra Dhakad
 
-## 🎓 Registration Number
+## Registration Number
 12318248
 
 ---
 
-## 🌐 Live Website
+## Live Website
 https://shailendra-s3-site-2026.s3.us-east-2.amazonaws.com/index.html
 
 ---
 
-## 📌 Project Description
+## Project Description
 This project demonstrates hosting a static website using Amazon S3. It includes static website hosting, versioning of objects, and lifecycle rules for cost optimization.
 
 ---
 
-## ⚙️ Features Implemented
+## Features Implemented
 - Static website hosting using AWS S3
 - Public access configuration using bucket policy
 - Versioning enabled (multiple versions of index.html)
@@ -61,7 +61,7 @@ Shows lifecycle rule:
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 - AWS S3 static website hosting
 - Object versioning and rollback concept
 - Lifecycle policies for cost optimization
@@ -69,7 +69,7 @@ Shows lifecycle rule:
 
 ---
 
-## ⚠️ Challenges Faced
+## Challenges Faced
 - Configuring S3 bucket public access correctly
 - Understanding versioning behavior
 - Setting lifecycle rules properly
