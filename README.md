@@ -55,10 +55,9 @@ Shows lifecycle rule:
 <img src="assets/runningWebsite.png" width="900"/>
 
 ---
+### 4. Website Running (Live S3 Site)
 
-### 5. AWS Console Screenshot (Proof)
-
-<img src="https://github.com/user-attachments/assets/d9cadc23-3d72-4f5e-b4ab-a67529004bb4" width="900"/>
+<img src="assets/uploaded-files.png" width="900"/>
 
 ---
 
