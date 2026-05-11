@@ -4,7 +4,7 @@
 Shailendra Dhakad
 
 ## Registration Number
-12318248
+############
 
 ---
 
@@ -76,5 +76,5 @@ Shows lifecycle rule:
 
 ---
 
-## ✅ Status
+## Status
 Project completed successfully using AWS S3 services.
